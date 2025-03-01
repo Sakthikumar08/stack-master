@@ -1,0 +1,39 @@
+.navbar{
+  padding: 20px;
+}
+
+
+
+.profile-pic {
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.profile-pic img{
+  width: 200px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 10px 25px;
+}
+nav{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap:20px
+}
+nav button{
+  border: none;
+  font-size: 17px;
+  background-color: white;
+  padding: 5px 8px;
+  color: black;
+}
+nav button:hover{
+  background-color: #ddd;
+}
+
+
+
+
